@@ -1,0 +1,41 @@
+{
+  "name": "ArenaClashAPI",
+  "version": "0.1.0",
+  "description": "",
+  "main": "global.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Auruss/ArenaClashAPI.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Auruss/ArenaClashAPI/issues"
+  },
+  "homepage": "https://github.com/Auruss/ArenaClashAPI",
+  "dependencies": {
+    "app-root-path": "^1.0.0",
+    "elasticsearch": "^4.0.2",
+    "hapi": "^8.4.0",
+    "ioredis": "^1.5.9",
+    "lodash": "^3.10.0",
+    "moment": "^2.9.0",
+    "mysql": "^2.7.0",
+    "pm2": "^0.12.9",
+    "pmx": "^0.3.16",
+    "q": "^1.4.1",
+    "sequelize": "^3.3.2",
+    "winston": "^0.9.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-concurrent": "^1.0.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-nodemon": "^0.4.0",
+    "grunt-tsd": "^0.1.0",
+    "grunt-typescript": "0.6.1"
+  }
+}

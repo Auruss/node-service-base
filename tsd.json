@@ -1,0 +1,39 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings",
+  "bundle": "typings/tsd.d.ts",
+  "installed": {
+    "hapi/hapi.d.ts": {
+      "commit": "e18e130e2188348070f98d92b98c0ea481c4a086"
+    },
+    "moment/moment.d.ts": {
+      "commit": "e18e130e2188348070f98d92b98c0ea481c4a086"
+    },
+    "node/node.d.ts": {
+      "commit": "5156f56a6efe779c31cfcc8e54a22b409ed63d77"
+    },
+    "moment/moment-node.d.ts": {
+      "commit": "5156f56a6efe779c31cfcc8e54a22b409ed63d77"
+    },
+    "bluebird/bluebird.d.ts": {
+      "commit": "5156f56a6efe779c31cfcc8e54a22b409ed63d77"
+    },
+    "q/Q.d.ts": {
+      "commit": "d268d865a30b0a64a2eff93f80d8167303bacb05"
+    },
+    "sequelize/sequelize.d.ts": {
+      "commit": "ab3cc82066805007cbf0db233ddb5879f42be4d2"
+    },
+    "lodash/lodash.d.ts": {
+      "commit": "ab3cc82066805007cbf0db233ddb5879f42be4d2"
+    },
+    "jquery/jquery.d.ts": {
+      "commit": "be03157bace6e6465e63f13073d7b68e8ea1303c"
+    },
+    "twig/twig.d.ts": {
+      "commit": "f6c8ca47193fb67947944a3170912672ac3e908e"
+    }
+  }
+}

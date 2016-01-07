@@ -1,0 +1,48 @@
+{
+  "http": {
+    "prettyResponse": true
+  },
+
+  "network": {
+    "port": 13338
+  },
+
+  "api": {
+    "url": "http://127.0.0.1:13337",
+    "authTokenHeader": "X-ArenaClash-AuthToken"
+  },
+
+  "elasticSearch": {
+    "logstash": {
+      "host": "127.0.0.1:9200",
+      "index": "admin-logstash"
+    },
+    "metrics": {
+      "host": "127.0.0.1:9200",
+      "index": "admin-metrics"
+    }
+  },
+
+  "redis": {
+    "cache": {
+      "host": "127.0.0.1",
+      "port": 6379,
+      "ipv": 4,
+      "password": "",
+      "database": 0
+    }
+  },
+
+  "cache": {
+    "default": {
+      "engine": { "type": "redis", "config": "cache" },
+      "ttl": 120,
+      "prefix": "admin_cache_default_"
+    }
+  },
+
+  "logging": {
+    "pm2": [],
+    "logstash": ["debug", "error", "info", "warning"]
+  }
+}

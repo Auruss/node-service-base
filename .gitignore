@@ -1,0 +1,13 @@
+node_modules/
+assets_src/global/scripts/node_modules
+assets_src/admin/scripts/node_modules
+
+typings/
+
+dev/
+assets/global/scripts/global.js
+assets/global/scripts/global.d.ts
+
+doc/groups
+
+.idea/
